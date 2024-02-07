@@ -17,7 +17,7 @@
 
  - List files and directories.
   ```
-  ls -a ~  # List all files, including hidden, in the home directory.
+  ls
   ```
 
 - Create a new directory.
