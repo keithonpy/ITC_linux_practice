@@ -77,7 +77,7 @@
   date
   ```
 
- - Show the command-line history.
+- Show the command-line history.
   ```
   history
   ```
