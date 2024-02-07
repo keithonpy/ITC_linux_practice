@@ -4,10 +4,14 @@
 - create a new Linux user account and change its password
   ```
   useradd [option] *username*
-  ```
-  ```
   passwd *username*
   ```
+  
+- Delete a user
+  ```
+  userdel *username*
+  ```
+  
 ## File and Directory Management
 
 - Print the current working directory.
@@ -22,27 +26,27 @@
 
 - Create a new directory.
   ```
-  mkdir project
+  mkdir *directory*
   ```
 
 - Change directory.
   ```
-  cd project
+  cd *directory*
   ```
 
 - Create an empty file.
   ```
-  touch index.html
+  touch *file*
   ```
 
 - Copy files or directories.
   ```
-  cp index.html index_backup.html
+  cp *file* *copied file path/file*
   ```
 
 - Move or rename files or directories.
   ```
-  mv index_backup.html backup/
+  mv *file* *new path/file*
   ```
 
 - Display a line of text/string that is passed as an argument.
@@ -50,15 +54,11 @@
   echo "Hello, World!" > index.html
   ```
 
-- Concatenate files and print on the standard output.
+- Lists, combines, and writes file content to the standard output (Concatenate file).
   ```
   cat index.html
   ```
 
-- Print newline, word, and byte counts for each file.
-  ```
-  wc -l index.html
-  ```
 
 ## System Information and Management
 
@@ -88,11 +88,6 @@
   ```
   ifconfig
   ```
-  
-- Check the network connection to a server.
-  ```
-  ping -c 4 google.com
-  ```
 
 - Query Internet name servers for DNS lookups.
   ```
@@ -106,14 +101,15 @@
   chmod g+w index.html
   ```
 
-- Stream editor for filtering and transforming text.
-  ```
-  sed -i 's/World/Bash/g' index.html
-  ```
-
 ## File Compression and Archives
 
-- An archiving utility.
+- Compresses/Decompresses items into/from **ZIP** file
+  ```
+  zip [option] *zipfile* *file1* *file2*
+  unzip [option] *zipfile*
+  ```
+
+- Compresses/Decompresses items into/from **TAR** file
   ```
   tar -czvf backup.tar.gz backup/
   tar -xzvf backup.tar.gz
@@ -152,7 +148,23 @@
   ```
   tail -n 10 page.html
   ```
-
+- Compares two files' content and outputs the difference
+  ```
+  diff [option] file1 file2
+  ```
+- Writes the user's input to Terminal's output and files
+  ```
+  *command* | tee [option] file1
+  ```
+## File Management
+- Finds a file in the database system
+  ```
+  locate -i 
+  ```
+- Searches for files within a specific directory
+  ```
+  find [option] [path] [
+  ```
 ## Disk Usage
 
 - Estimate file space usage.
@@ -160,11 +172,6 @@
   du -sh project
   ```
 
-## Environment and Variables
 
-- Set an environment variable.
-  ```
-  export MY_VAR=test
-  ```
 
-This cheat sheet covers the basics of Linux commands for file management, system information, networking, file permissions, text processing, and more.
+
