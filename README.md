@@ -15,7 +15,7 @@
   pwd
   ```
 
- - List files and directories.
+- List files and directories.
   ```
   ls
   ```
