@@ -1,9 +1,12 @@
 # Linux Command Line Practice
 
-## Create new user and password
+## Users Management
 - create a new Linux user account and change its password
   ```
   useradd [option] *username*
+  ```
+  ```
+  passwd *username*
   ```
 ## File and Directory Management
 
