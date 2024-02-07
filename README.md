@@ -1,8 +1,5 @@
 # Linux Command Line Practice
 
-[Users Management](##Users-Management)
-[File and Directory Management](##File-and-Directory-Management)
-
 ## Users Management
 - create a new Linux user account and change its password
   ```
