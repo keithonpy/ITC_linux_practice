@@ -1,5 +1,24 @@
 # Linux Command Line Practice
 
+** [Users Management](#Users-Management)
+
+** [File and Directory Management](#File-and-Directory-Management)
+
+** [System Information and Management](#System-Information-and-Management)
+
+** [Networking](#Networking)
+
+** [File Compression and Archives](#File-Compression-and-Archives)
+
+** [Downloading and Web Requests](#Downloading-and-Web-Requests)
+
+** [Text Processing](#Text-Processing)
+
+** [File Management](#File-Management)
+
+** [Disk Usage](#Disk-Usage)
+
+
 ## Users Management
 - create a new Linux user account and change its password
   ```
