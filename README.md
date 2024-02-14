@@ -8,6 +8,8 @@
 
 ** [Networking](#Networking)
 
+** [File Permissions and Editing](#File-Permissions-and-Editing)
+
 ** [File Compression and Archives](#File-Compression-and-Archives)
 
 ** [Downloading and Web Requests](#Downloading-and-Web-Requests)
